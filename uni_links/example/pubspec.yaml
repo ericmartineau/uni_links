@@ -8,7 +8,10 @@ environment:
 dependencies: 
   cupertino_icons: ^1.0.5
   uni_links2: 
-    path: /Users/ericm/sunny/trippi_plugins/uni_links/uni_links
+    git: 
+      url: git@github.com:ericmartineau/uni_links
+      ref: trippi_app
+      path: uni_links
   flutter: 
     sdk: flutter
 dev_dependencies: 
