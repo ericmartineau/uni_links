@@ -10,9 +10,9 @@ environment:
 dependencies: 
   dependencies: 
   uni_links2_platform_interface: 
-    path: /Users/stevenslewa/Desktop/uni_links3/uni_links_platform_interface
+    path: ../uni_links_platform_interface
   uni_links_web2: 
-    path: /Users/stevenslewa/Desktop/uni_links3/uni_links_web
+    path: ../uni_links_web
   flutter: 
     sdk: flutter
 
