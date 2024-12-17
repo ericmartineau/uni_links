@@ -11,8 +11,6 @@ dependencies:
   dependencies: 
   uni_links2_platform_interface: 
     path: ../uni_links_platform_interface
-  uni_links_web2: 
-    path: ../uni_links_web
   flutter: 
     sdk: flutter
 
