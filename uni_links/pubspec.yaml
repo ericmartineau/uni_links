@@ -1,6 +1,5 @@
 name: uni_links2
 version: 0.6.0+2
-homepage: https://github.com/ericmartineau/uni_links/tree/master/uni_links
 description: Flutter plugin for accepting incoming links - App/Deep Links (Android), Universal Links and Custom URL schemes (iOS).
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
@@ -9,14 +8,11 @@ environment:
   flutter: '>=2.0.1 <3.0.0'
 
 dependencies: 
-  uni_links2_platform_interface:
-    git:
-      url: https://github.com/ericmartineau/uni_links/tree/master/uni_links_platform_interface.git
-      path: uni_links_platform_interface
-  uni_links_web2:
-    git:
-      url: https://github.com/ericmartineau/uni_links/tree/master/uni_links_web.git
-      path: uni_links_web
+  dependencies: 
+  uni_links2_platform_interface: 
+    path: /Users/stevenslewa/Desktop/uni_links3/uni_links_platform_interface
+  uni_links_web2: 
+    path: /Users/stevenslewa/Desktop/uni_links3/uni_links_web
   flutter: 
     sdk: flutter
 
