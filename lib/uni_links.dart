@@ -79,14 +79,14 @@ Stream<Uri> getUriLinksStream() {
 
 ///iOS only, start listening for NFC URI payloads
 void startNFCSession(String dialogMsg) {
-  if(Platform.isIOS) {
+  if (Platform.isIOS) {
     _mChannel.invokeMethod('startNFCSession', dialogMsg);
   }
 }
 
 ///iOS only, stop listening for NFC URI payloads
 void stopNFCSession() {
-  if(Platform.isIOS) {
+  if (Platform.isIOS) {
     _mChannel.invokeMethod('stopNFCSession');
   }
 }
